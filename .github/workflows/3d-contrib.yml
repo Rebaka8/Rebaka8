@@ -1,0 +1,28 @@
+name: Generate 3D Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          USERNAME: Rebaka8
+          OUTPUT_PATH: profile-3d-contrib
+
+      - name: Commit and push generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update 3D contribution graph"
+          branch: main
