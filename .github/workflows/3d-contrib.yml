@@ -3,7 +3,7 @@ name: Generate 3D Contribution Graph
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "30 12 * * *"   # Runs daily at 6:00 PM IST
 
 permissions:
   contents: write
@@ -11,6 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,6 +19,7 @@ jobs:
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Rebaka8
           OUTPUT_PATH: profile-3d-contrib
 
@@ -26,3 +28,5 @@ jobs:
         with:
           commit_message: "chore: update 3D contribution graph"
           branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
