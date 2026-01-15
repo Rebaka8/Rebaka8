@@ -18,7 +18,6 @@
 </p>
 
 
----
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -29,14 +28,13 @@
     src="https://raw.githubusercontent.com/Rebaka8/Rebaka8/main/profile-3d-contrib/profile-night-view.svg">
 </picture>
 
----
-
 
 
 ## 🛠 Tech Stack
 <p>
   <img src="https://skillicons.dev/icons?i=c,java,js,react,git,github,linux,cloudflare,vercel,netlify,canva,node.js" />
 </p>
+
 
 
 
