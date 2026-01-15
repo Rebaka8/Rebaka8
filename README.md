@@ -29,27 +29,8 @@
 
 ---
 
-## ⭐ GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Rebaka8&show_icons=true&theme=tokyonight&cache_seconds=1800"
-    alt="GitHub Stats"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Rebaka8&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
-</p>
-
-
-
----
-
 ## 🛠 Tech Stack
 <p>
   <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,git,github,linux" />
 </p>
+
