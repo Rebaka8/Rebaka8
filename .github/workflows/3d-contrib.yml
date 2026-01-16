@@ -22,9 +22,10 @@ jobs:
           USERNAME: Rebaka8
 
       - name: Commit & Push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add -A .
-          git commit -m "Update 3D contribution graph" || echo "No changes"
-          git push
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git add -A .
+    git commit -m "Update 3D contribution graph" || echo "No changes"
+    git push
+
