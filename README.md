@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/header1.png" alt="Hello, I'm Rebaka" width="70%" />
+  <img src="https://raw.githubusercontent.com/Rebaka8/Rebaka8/main/panther3.gif" alt="Hello! I'm Rebaka animated banner" />
 </p>
+
 
 
 <h3 align="center">
@@ -34,6 +35,7 @@
 <p>
   <img src="https://skillicons.dev/icons?i=c,java,js,react,git,github,linux,cloudflare,vercel,netlify,canva,node.js" />
 </p>
+
 
 
 
