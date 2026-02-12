@@ -2,7 +2,7 @@ name: GitHub Profile 3D Contrib
 
 on:
   schedule:
-    - cron: "30 18 * * *"   # daily (12:00 AM IST)
+    - cron: "0 */6 * * *"   # Runs every 6 hours
   workflow_dispatch:
 
 permissions:
@@ -17,10 +17,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Rebaka8
+          MAX_REPOS: 100
 
       - name: Commit & Push
         run: |
