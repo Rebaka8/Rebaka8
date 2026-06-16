@@ -33,7 +33,7 @@
 
 ## 🛠 Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=c,java,js,react,git,github,linux,cloudflare,vercel,netlify,go" />
+  <img src="https://skillicons.dev/icons?i=c,java,go,js,react,git,github,linux,cloudflare,vercel,netlify" />
 </p>
 
 
